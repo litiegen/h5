@@ -70,9 +70,9 @@
 </body>
 <script>
     var box3 = document.getElementById('box3');  
+    var input = document.getElementById('input');
     //缓存
     function saveStorage(){
-        var input = document.getElementById('input');
         var time = new Date().getTime();
         localStorage.setItem(time,input.value);
         box3.innerHTML="";
