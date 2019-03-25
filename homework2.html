@@ -62,16 +62,16 @@
         <div class="box2">
             <input type="text" id="input" placeholder="请输入想要查找的商品"/>
         </div>
-            <button id="button" onclick="saveStorage()">搜索</button>
-            <p class="p">最近搜索</p>
-            <button id="button2" onclick="clearr()">x</button>
-            <div id="box3"><span>无缓存记录</span></div>
-        </div>
+        <button id="button" onclick="saveStorage()">搜索</button>
+        <p class="p">最近搜索</p>
+        <button id="button2" onclick="clearr()">x</button>
+        <div id="box3"><span>无缓存记录</span></div>
+    </div>
 </body>
 <script>
     var box3 = document.getElementById('box3');  
     var input = document.getElementById('input');
-    //缓存
+    //缓存 查重 输出
     function saveStorage(){
         var time = new Date().getTime();
         localStorage.setItem(time,input.value);
@@ -79,16 +79,19 @@
         for(var i = 0; i < localStorage.length; ++i){
             var key = localStorage.key(i);
             var value = localStorage.getItem(key);
-            function show(key,value){
+            for(var j = 0;j < localStorage.length; ++j){
+                var key1 = localStorage.key(j);
+                var value1 = localStorage.getItem(key1);if(value===value1 && i!=j){
+                    localStorage.removeItem(localStorage.key(j));
+                    }
+                }
                 box3.innerHTML+='<span class="inner">'+value+'</span>';
-                }  
-                show(key,value);
             } 
         }
     //清除历史记录 
     function clearr(){
         localStorage.clear();
-        document.getElementById('box3') .innerHTML ="无缓存记录";
+        document.getElementById('box3').innerHTML ="无缓存记录";
         }
     </script>
 </html>
