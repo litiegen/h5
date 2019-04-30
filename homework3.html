@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            background:#FFF; 
+            position:relative;
+            }
+        #canvas
+        {
+            position:absolute; 
+            left:0px; 
+            top:0px;
+        }
+        .box1
+        { 
+            height:200px; 
+            width:400px; 
+            text-align:center; 
+            font-size:60px; 
+            line-height:200px; 
+        }
+    </style>
+</head>
+<body> 
+    <div class="box">
+        <div class="box1" id="box1"></div>
+        <canvas width=400 height=200 id="canvas"></canvas> 
+    </div>
+</body>
+<script>
+    var awards = ["一等奖","二等奖","三等奖","谢谢参与"];//奖项
+    var time = [1,3,8,10];//奖项出现次数
+    
+    var awards1 = [];
+    for(var i = 0;i < time.length;i++){
+        aka(time[i],i);
+    }
+    function aka(a,b){
+        for(var i = 0;i < a;i++){
+            awards1.push(awards[b]);
+        } 
+    }
+    
+    var box1 = document.getElementById("box1");
+    var num = Math.floor(Math.random()*awards1.length);
+    box1.innerHTML = awards1[num];
+    
+    var canvas = document.getElementById("canvas"); //获取canvas  
+    var context = canvas.getContext('2d'); //canvas追加2d画图
+    var flag = 0; 
+    var penwidth = 25; //画笔宽度
+    context.fillStyle = "grey"; //填充的颜色
+    context.fillRect(0,0,400,200); //填充颜色 x y坐标 宽 高
+    
+    canvas.addEventListener('mousemove', onmousemove, false); //鼠标移动
+    canvas.addEventListener('mousedown', onmousedown, false); //鼠标按下 
+    canvas.addEventListener('mouseup', onmouseup, false); //鼠标抬起
+    var movex = -1;
+    var movey = -1;
+    function onmousemove(event) {
+        if (flag == 1) { 
+            movex = event.layerX;
+            movey = event.layerY;    
+            context.beginPath();
+            context.globalCompositeOperation="destination-out";
+            context.arc(movex,movey,penwidth,0,Math.PI*2,true);   
+            context.closePath();
+            context.fill();
+        } 
+    }
+    function onmousedown(event) { 
+        flag = 1; //标志按下
+        func();
+    }
+    function onmouseup(event) { 
+        flag = 0;
+        func();
+    }
+    //涂抹区域百分比
+    function func(){
+        var data1 = context.getImageData(0,0,400,200);
+        var data2 = data1.data; 
+        var length = data2.length; 
+        var data3 = 0; 
+        for (var i = 0; i < length; i++) { 
+            var data4 = data2[i]; 
+            if (data4 < 10) 
+            data3++;
+        }
+        var data5 = data3/length;
+        if (data5 > 0.85){
+            context.clearRect(0,0,400,200);
+        }
+    }
+    </script>
+</html>
