@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul,li{
+            list-style: none;
+        }
+        .a{
+            width: 400px;
+            height: 500px;
+            border: 5px solid #e6e6e669;
+            box-shadow: 5px 5px 2px #e6e6e669;
+            overflow: hidden;
+            position: relative;
+        }
+        .b{
+            width:400px;
+            height: 250px;
+            overflow: hidden;
+            background-image: url(./xuexiaoban.jpg);
+            background-size: cover;
+            position: relative;
+            transition: all 0.5s linear;
+        }
+        .c{
+            top:25px;
+            right:25px;
+            width: 60px;
+            height: 60px;
+            background-color: rgba(255, 166, 0, 0.932);
+            border-radius: 30px 30px 30px 30px;
+            text-align: center;
+            position: absolute;
+        }
+        .c li{
+            margin-top: 4px;
+            color: white;
+            font-weight: bolder;
+        }
+        .kong{
+            width:400px;
+            height: 250px;
+            background-color: rgba(0, 0, 0, 0.473);
+            display: none;
+            position: absolute;
+            top: 0px;
+            left: 0px; 
+        }
+        .second{
+            width: 340px;
+            height: 25px;
+            margin: 0 auto;
+            position: absolute;
+            bottom: 10px;
+            left: 30px;
+        }
+        .second li{
+            float: left;
+            font-size: 15px;
+            color: #adb1ae;
+            margin-right: 10px;
+        }
+        .tu{
+            width: 400px;
+            height: 350px;
+            position: relative;
+            top: -25px;
+            transition: all 0.5s linear;
+        }
+        .tu{
+            display: block;
+            width: 55px;
+            line-height: 25px;
+            text-align: center;
+            color: white;
+            background-color: #fd7546;
+        }
+        .tu .xue{
+            width: 400px;
+            height: 300px;
+            background-color: white;
+        }
+        .tu .xue div{
+            width: 340px;
+            height: 300px;
+            margin: 0 auto;
+            background-color: white;
+        }
+        .tu .xue div h1{
+            line-height: 70px;
+        }
+        .tu .xue div #name{
+            font-weight: 500;
+            font-size: 20px;
+            color: #fd7546;
+            display: block;
+        }
+        .tu .xue div p{
+            line-height: 30px;
+            color: #7a7a84;
+            display: none;
+        }
+        .a:hover .b{
+            animation: scalePicture 0.5s linear 1;
+            transform: scale(1.3,1.3);
+        }
+        .a:hover .kong{
+            display: block;
+        }
+        .a:hover .tu{
+            animation: moveup 0.5s linear 1;
+            top: -120px;
+            height: 470px;
+        }
+        .a:hover .tu .xue p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b"></div>
+        <ul class="c">
+            <li>26</li>
+            <li>五月</li>
+        </ul>
+        <div class="kong"></div>
+        <div class="tu">
+            <div>
+                <span class="tu1">照片</span>    
+            </div>
+            <div class="xue">
+                <div>
+                    <h1>血小板</h1>
+                    <p id="name">血小板最可爱！</p>
+                    <p>血小板血小板血小板血小板血小板血小板血小板血小板血小板血小板血小板血小板</p>
+                </div>
+            </div>     
+        </div>
+        <ul class="second">
+            <li>1秒钟前</li>
+            <li>1000000000000000评论</li>
+        </ul>
+    </div>
+</body>
+</html>
