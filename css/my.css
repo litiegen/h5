@@ -1,0 +1,527 @@
+@media only screen and (max-width: 500px) {
+    .body2{
+        display: none;
+    }
+}
+@media only screen and (min-width: 500px) {
+#top{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.tell{
+    float: left;
+    margin-top: 8px;
+    margin-left: 950px;
+}
+.tell1{
+    float: left;
+    color:white;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.tell2{
+    float: left;
+    color:white;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 11px;
+}
+.img{
+    height: 35px;
+    width:110px;
+    float: left;
+}
+.icon-bar{
+    background-color: black;
+}
+#kuai{
+    background-color: #e8420a;
+    color: white;
+}
+.shou{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8420a;
+}
+#active{
+    color:#e8420a;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+#a{
+    font-size: 16px;
+    color:black;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.fffjian{
+    margin-top:170px;
+    margin-left: -140px;
+}
+.righta{
+    margin-top:170px;
+    margin-left: 120px;
+}
+.row1{
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/Sbanner2.jpg);
+    background-color: #19386e;
+}
+.carr{
+    float: left;
+    margin-left: 970px;
+    margin-top: 70px;
+}
+.carr1{
+    float: left;
+    font-family: 微软雅黑;
+    margin-left: 960px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}
+.cha{
+    float: left;
+    margin-left: 940px;
+    border:1px solid white;
+	width: 160px;
+	height: 50px;
+	background-color:#19386e;
+	margin-top: 15px;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align:center;
+}
+.row3{
+    float: left;
+    margin-top: 25px;
+    width: 1140px;
+    height: 100px;
+    text-align:center;
+}
+.re{
+    letter-spacing:13px;
+    font-style: 微软雅黑;
+    font-size: 30px;
+}
+.po{
+    margin-top:5px;
+    font-style: 微软雅黑;
+    font-size:15px;
+}
+ul li{
+    list-style-type:none;
+}
+.a{
+    width: 570px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+}
+.a4{
+    width: 570px;
+    height: 430px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+}
+.b{
+    width:570px;
+    height: 400px;
+    overflow: hidden;
+    background-image: url(../images/hot1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.b4{
+    width:570px;
+    height: 400px;
+    overflow: hidden;
+    background-image: url(../images/hot2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.tu{
+    width: 570px;
+    height: 400px;
+    position: relative;
+    top: -90px;
+    transition: all 0.5s linear;
+}
+.tu .xue div{
+    width: 570px;
+    height: 200px;
+    background-color: black;
+}
+.h1{
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.tu .xue div .xue1{
+    font-size: 20px;
+    color: #fff;
+    float: left;
+    margin-left: -110px;
+    margin-top: 10px;
+}
+.tu .xue div .xue2{
+    line-height: 50px;
+    color: #fff;
+    display: none;
+    font-size: 50px;
+}
+.a:hover .b{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.a:hover .tu{
+    animation: moveup 0.5s linear 1;
+    top: -150px;
+    height: 400px;
+}
+.a:hover .kong{
+    display: block;
+}
+.a:hover .tu .xue p{
+    display: block;
+}
+
+.a1{
+    width: 565px;
+    height: 275px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.b1{
+    width:570px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/hot3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.b2{
+    width:570px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/hot4.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.b3{
+    width:570px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/hot5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.a1:hover .b2{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.a1:hover .b3{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.a4:hover .b4{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.tu1{
+    width: 570px;
+    height: 300px;
+    position: relative;
+    top: -90px;
+    transition: all 0.5s linear;
+}
+.tu1 .xue1 div{
+    width: 570px;
+    height: 150px;
+    opacity:0.6;
+    background-color: black;
+}
+.h2{
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.tu1 .xue1 div .xue2{
+    font-size: 20px;
+    color: #fff;
+    float: left;
+    margin-left: -110px;
+    margin-top: 5px;
+}
+.tu1 .xue1 div .xue3{
+    line-height: 50px;
+    color: #fff;
+    display: none;
+    font-size: 50px;
+}
+.a1:hover .b1{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.a1:hover .tu1{
+    animation: moveup 0.5s linear 1;
+    top: -130px;
+    height: 400px;
+}
+.a1:hover .tu1 .xue1 p{
+    display: block;
+}
+.a4:hover .tu{
+    animation: moveup 0.5s linear 1;
+    top: -130px;
+    height: 400px;
+}
+.a4:hover .tu .xue p{
+    display: block;
+}
+.middle{
+    float: left;
+    width: 1140px;
+    height: 840px;
+}
+
+.qian{
+    float: left;
+    width: 1140px;
+    height: 720px;
+}
+
+.aa{
+    width: 350px;
+    height: 535px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+}
+.bb{
+    width:350px;
+    height: 535px;
+    overflow: hidden;
+    background-image: url(../images/visa1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.tuu{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top: -90px;
+    transition: all 0.5s linear;
+}
+.tuu .xuee div{
+    width: 350px;
+    height: 200px;
+    opacity:0.6;
+    background-color: black;
+}
+.h11{
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.tuu .xuee div .xue22{
+    line-height: 50px;
+    color: #fff;
+    display: none;
+    font-size: 50px;
+}
+.aa:hover .bb{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.aa:hover .tuu{
+    animation: moveup 0.5s linear 1;
+    top: -150px;
+    height: 400px;
+}
+.aa:hover .tuu .xuee p{
+    display: block;
+}
+
+.aa1{
+    width: 390px;
+    height: 265px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.bb1{
+    width:390px;
+    height: 265px;
+    overflow: hidden;
+    background-image: url(../images/visa2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.tuu1{
+    width: 390px;
+    height: 200px;
+    position: relative;
+    top: -90px;
+    transition: all 0.5s linear;
+}
+.tuu1 .xuee1 div{
+    width: 390px;
+    height: 200px;
+    opacity:0.6;
+    background-color: black;
+}
+.h112{
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.tuu1 .xuee1 div .xue221{
+    line-height: 50px;
+    color: #fff;
+    display: none;
+    font-size: 50px;
+}
+.aa1:hover .bb1{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.aa1:hover .tuu1{
+    animation: moveup 0.5s linear 1;
+    top: -150px;
+    height: 400px;
+}
+.aa1:hover .tuu1 .xuee1 p{
+    display: block;
+}
+.bb2{
+    width:390px;
+    height: 265px;
+    overflow: hidden;
+    background-image: url(../images/visa3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.aa1:hover .bb2{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.bb3{
+    width:390px;
+    height: 265px;
+    overflow: hidden;
+    background-image: url(../images/visa4.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.aa1:hover .bb3{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.bb4{
+    width:390px;
+    height: 265px;
+    overflow: hidden;
+    background-image: url(../images/visa5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.aa1:hover .bb4{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.geng{
+    float: left;
+    margin-left: 470px;
+    border:1px solid black;
+	width: 200px;
+	height: 50px;
+	margin-top: 45px;
+	border-radius: 10px;
+	font-size: 18px;
+    text-align:center;
+    background-color: #fff;
+}
+.banner{
+    float: left;
+}
+.back{
+    float: left;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../images/back.png);
+}
+.row4{
+    float: left;
+    margin-top: 25px;
+    width: 1140px;
+    height: 100px;
+    text-align:center;
+}
+.row5{
+    float: left;
+    margin-top: 80px;
+    width: 100%;
+    height: 100px;
+    text-align:center;
+}
+.final{
+    width: 1170px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.pin{
+    width: 1170px;
+    height: 400px;
+    margin-left: 145px;
+    background-color:  #1c5080;
+    float: left;
+}
+.ror{
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 200px;
+    height: 300px;
+    text-align:center;
+}
+.ror1{
+    margin-top: 50px;
+}
+}

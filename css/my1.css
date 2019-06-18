@@ -1,0 +1,355 @@
+
+@media only screen and (min-width: 500px) {
+    .body1{
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+.img{
+    height: 35px;
+    width:110px;
+    float: left;
+}
+.icon-bar{
+    background-color: black;
+}
+#kuai{
+    background-color: #e8420a;
+    color: white;
+}
+.shou{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8420a;
+}
+#active{
+    color:#e8420a;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+#a{
+    font-size: 16px;
+    color:black;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.row1{
+    float: left;
+    width: 400px;
+    height: 120px;
+}
+.carr{
+    float: left;
+    margin-left: 970px;
+    margin-top: 70px;
+}
+.carr1{
+    float: left;
+    font-family: 微软雅黑;
+    margin-left: 960px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}
+.cha{
+    float: left;
+    margin-left: 300px;
+    border:1px solid #666666;
+	width: 90px;
+	height: 30px;
+	background-color:#fff;
+	margin-top: -70px;
+	color: #666666;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align:center;
+}
+.row3{
+    float: left;
+    width: 400px;
+    height: 80px;
+}
+.re{
+    font-style: 微软雅黑;
+    font-size: 25px;
+    float: left;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+ul li{
+    list-style-type:none;
+}
+.aka{
+    width:400px;
+    height: 700px;
+    float: left;
+}
+.a{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+}
+
+.b{
+    width:400px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/hot1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.b1{
+    width:400px;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/hot2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.duo{
+    margin-left: 120px;
+    border:1px solid #666666;
+	width: 140px;
+	height: 40px;
+	background-color:#fff;
+	margin-top:40px;
+	color: #666666;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align:center;
+}
+.tu{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -90px;
+    transition: all 0.5s linear;
+}
+.tu .xue div{
+    width: 400px;
+    height: 200px;
+    opacity:0.6;
+    background-color: black;
+}
+.h1{
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.a:hover .b{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.a:hover .tu{
+    animation: moveup 0.5s linear 1;
+    top: -150px;
+    height: 400px;
+}
+.a:hover .kong{
+    display: block;
+}
+.a:hover .tu .xue p{
+    display: block;
+}
+
+.qian{
+    float: left;
+    width: 400px;
+    height: 335px;
+}
+.aa{
+    width: 170px;
+    height: 245px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+}
+.bb{
+    width:170px;
+    height: 245px;
+    overflow: hidden;
+    background-image: url(../images/visa1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.tuu{
+    width: 170px;
+    height: 200px;
+    position: relative;
+    top: -90px;
+    transition: all 0.5s linear;
+}
+.tuu .xuee div{
+    width: 170px;
+    height: 200px;
+    opacity:0.6;
+    background-color: black;
+}
+.h11{
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.tuu .xuee div .xue22{
+    line-height: 50px;
+    color: #fff;
+    display: none;
+    font-size: 50px;
+}
+.aa:hover .bb{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.aa:hover .tuu{
+    animation: moveup 0.5s linear 1;
+    top: -150px;
+    height: 400px;
+}
+.aa:hover .tuu .xuee p{
+    display: block;
+}
+
+.aa1{
+    width: 225px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.bb1{
+    width:225px;
+    height: 120px;
+    overflow: hidden;
+    background-image: url(../images/visa2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.tuu1{
+    width: 225px;
+    height: 120px;
+    position: relative;
+    top: -90px;
+    transition: all 0.5s linear;
+}
+.tuu1 .xuee1 div{
+    width: 225px;
+    height: 200px;
+    opacity:0.6;
+    background-color: black;
+}
+.h112{
+    line-height: 70px;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.tuu1 .xuee1 div .xue221{
+    line-height: 50px;
+    color: #fff;
+    display: none;
+    font-size: 50px;
+}
+.aa1:hover .bb1{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.aa1:hover .tuu1{
+    animation: moveup 0.5s linear 1;
+    top: -150px;
+    height: 400px;
+}
+.aa1:hover .tuu1 .xuee1 p{
+    display: block;
+}
+
+.bb4{
+    width:225px;
+    height: 120px;
+    overflow: hidden;
+    background-image: url(../images/visa5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s linear;
+}
+.aa1:hover .bb4{
+    animation: scalePicture 0.5s linear 1;
+    transform: scale(1.23,1.23);
+}
+.geng{
+    float: left;
+    margin-left: 470px;
+    border:1px solid black;
+	width: 200px;
+	height: 50px;
+	margin-top: 45px;
+	border-radius: 10px;
+	font-size: 18px;
+    text-align:center;
+    background-color: #fff;
+}
+.banner{
+    float: left;
+}
+.back{
+    float: left;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../images/back.png);
+}
+.row4{
+    float: left;
+    margin-top: 25px;
+    width: 1140px;
+    height: 100px;
+    text-align:center;
+}
+.row5{
+    float: left;
+    margin-top: 80px;
+    width: 100%;
+    height: 100px;
+    text-align:center;
+}
+.final{
+    width: 1170px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.pin{
+    width: 1170px;
+    height: 400px;
+    margin-left: 145px;
+    background-color:  #1c5080;
+    float: left;
+}
+.ror{
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 200px;
+    height: 300px;
+    text-align:center;
+}
+.ror1{
+    margin-top: 50px;
+}
+.icon{
+    margin-top: 40px;
+}
+}
