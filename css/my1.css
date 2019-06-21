@@ -1,10 +1,10 @@
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     .body1{
         display: none;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 .img{
     height: 35px;
     width:110px;
@@ -35,8 +35,9 @@
 }
 .row1{
     float: left;
-    width: 400px;
+    width: 500px;
     height: 120px;
+    margin-left: 50px;
 }
 .carr{
     float: left;
@@ -53,7 +54,7 @@
 }
 .cha{
     float: left;
-    margin-left: 300px;
+    margin-left: 350px;
     border:1px solid #666666;
 	width: 90px;
 	height: 30px;
@@ -66,7 +67,7 @@
 }
 .row3{
     float: left;
-    width: 400px;
+    width: 600px;
     height: 80px;
 }
 .re{
@@ -76,16 +77,44 @@
     margin-left: -30px;
     margin-top: 20px;
 }
+.navbar-nav li:first-child{
+    margin-left: 200px;
+}
+#a{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.navbar-nav li{
+    text-align: left;
+    margin-left: 100px;
+}
+.navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover{
+    background-color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    line-height: 30px;
+    color:black;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar-nav li:hover{
+    border-bottom: 3px solid #cb5405;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:#cb5405;
+}
 ul li{
     list-style-type:none;
 }
 .aka{
-    width:400px;
+    width:600px;
     height: 700px;
     float: left;
 }
 .a{
-    width: 400px;
+    width: 600px;
     height: 300px;
     overflow: hidden;
     position: relative;
@@ -94,7 +123,7 @@ ul li{
 }
 
 .b{
-    width:400px;
+    width:600px;
     height: 300px;
     overflow: hidden;
     background-image: url(../images/hot1.jpg);
@@ -103,7 +132,7 @@ ul li{
     transition: all 0.5s linear;
 }
 .b1{
-    width:400px;
+    width:600px;
     height: 300px;
     overflow: hidden;
     background-image: url(../images/hot2.jpg);
@@ -112,7 +141,7 @@ ul li{
     transition: all 0.5s linear;
 }
 .duo{
-    margin-left: 120px;
+    margin-left: 220px;
     border:1px solid #666666;
 	width: 140px;
 	height: 40px;
@@ -124,14 +153,14 @@ ul li{
 	text-align:center;
 }
 .tu{
-    width: 400px;
+    width: 600px;
     height: 400px;
     position: relative;
     top: -90px;
     transition: all 0.5s linear;
 }
 .tu .xue div{
-    width: 400px;
+    width: 600px;
     height: 200px;
     opacity:0.6;
     background-color: black;
@@ -162,20 +191,20 @@ ul li{
 
 .qian{
     float: left;
-    width: 400px;
-    height: 335px;
+    width: 600px;
+    height: 435px;
 }
 .aa{
-    width: 170px;
-    height: 245px;
+    width: 240px;
+    height: 345px;
     overflow: hidden;
     position: relative;
     float: left;
     margin-top: 5px;
 }
 .bb{
-    width:170px;
-    height: 245px;
+    width:240px;
+    height: 345px;
     overflow: hidden;
     background-image: url(../images/visa1.jpg);
     background-size:cover;
@@ -183,14 +212,14 @@ ul li{
     transition: all 0.5s linear;
 }
 .tuu{
-    width: 170px;
+    width: 240px;
     height: 200px;
     position: relative;
     top: -90px;
     transition: all 0.5s linear;
 }
 .tuu .xuee div{
-    width: 170px;
+    width: 240px;
     height: 200px;
     opacity:0.6;
     background-color: black;
@@ -222,8 +251,8 @@ ul li{
 }
 
 .aa1{
-    width: 225px;
-    height: 120px;
+    width: 350px;
+    height: 170px;
     overflow: hidden;
     position: relative;
     float: left;
@@ -231,8 +260,8 @@ ul li{
     margin-left: 5px;
 }
 .bb1{
-    width:225px;
-    height: 120px;
+    width:350px;
+    height: 170px;
     overflow: hidden;
     background-image: url(../images/visa2.jpg);
     background-size:cover;
@@ -240,14 +269,14 @@ ul li{
     transition: all 0.5s linear;
 }
 .tuu1{
-    width: 225px;
-    height: 120px;
+    width: 350px;
+    height: 170px;
     position: relative;
     top: -90px;
     transition: all 0.5s linear;
 }
 .tuu1 .xuee1 div{
-    width: 225px;
+    width: 350px;
     height: 200px;
     opacity:0.6;
     background-color: black;
@@ -279,8 +308,8 @@ ul li{
 }
 
 .bb4{
-    width:225px;
-    height: 120px;
+    width:350px;
+    height: 170px;
     overflow: hidden;
     background-image: url(../images/visa5.jpg);
     background-size:cover;
